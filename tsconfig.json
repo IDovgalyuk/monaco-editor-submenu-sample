@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "ES2015",
+    "outDir": "./dist",
+    "lib": ["dom", "ES2015", "es2015.collection", "es2015.promise"],
+    "types": [],
+    "baseUrl": "./node_modules",
+    "jsx": "preserve",
+    "typeRoots": ["node_modules/@types"]
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules"]
+}
